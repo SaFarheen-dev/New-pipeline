@@ -12,6 +12,7 @@ pipeline {
          }
          stage('Lint HTML') {
               steps {
+                   echo 'Hello Farheen!!!'
               }
          }
          stage('Security Scan') {
